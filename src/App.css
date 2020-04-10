@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.login-form{
+  text-align: center;
+  height: 50%;
+  width: 50%;
+  background-color: lightblue;
+  margin: 0;
+  padding: 25%;
+}
+
+.dashboard{
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  margin: 0%;
+  padding: 15%;
+}
+.form-group{
+  display: grid;
+  margin-bottom:15px;
+  width:400px;
+  margin-left: 150px;
+}
+.form-group label,input{
+  margin-bottom:10px;
+  color: white;
+  flex:1;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-group input{
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+  background-color: rgb(79, 140, 231);
+}
+
+.form-group .submit-button{
+  background-color: rgb(45, 116, 116);
+  height: 50px;
+  cursor: pointer;
+}
+.error{
+  color: red;
+}
+
+#users {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#users td, #users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(69, 109, 218);
+  color: white;
+}
